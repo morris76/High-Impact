@@ -140,7 +140,7 @@ header #banner-wrap {
 	@media #{$breakpoint-menu} {
 		background: #000;
 		width: 100%;
-		position: fixed;
+		position: absolute;
 		display: block;
 		height: $menu-mobile-height;
 		}
@@ -182,7 +182,7 @@ header.fixed {
 	@media #{$breakpoint-menu} {
 		background: #4F7FAB;
 		border:0;
-		position:absolute;
+		position:fixed;
 		top:0;
 		height:$menu-mobile-height;
 	}

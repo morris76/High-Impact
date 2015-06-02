@@ -453,7 +453,7 @@ header { width: 100%; height: 80px; transition: all 0.3s ease-in-out 0s; positio
 @media (max-width: 990px) { header { background: #4F7FAB; border: 0; height: 60px; } }
 
 header #banner-wrap { max-width: 77em; margin: 0 auto; padding: 0 1em; position: relative; }
-@media (max-width: 990px) { header #banner-wrap { background: #000; width: 100%; position: fixed; display: block; height: 60px; } }
+@media (max-width: 990px) { header #banner-wrap { background: #000; width: 100%; position: absolute; display: block; height: 60px; } }
 
 header h1 { display: inline; }
 
@@ -461,7 +461,7 @@ header h1 .logo-hi { background: url("../images/hi-logo.png") no-repeat scroll; 
 @media (max-width: 990px) { header h1 .logo-hi { left: 7px; background-size: 190px; } }
 
 header.fixed { position: fixed; background: #000000; border-bottom: 0; border-top: 0; height: 80px; }
-@media (max-width: 990px) { header.fixed { background: #4F7FAB; border: 0; position: absolute; top: 0; height: 60px; } }
+@media (max-width: 990px) { header.fixed { background: #4F7FAB; border: 0; position: fixed; top: 0; height: 60px; } }
 header.fixed.menu-visible { height: 370px; background: #f9f9f9; }
 header.fixed.menu-visible #nav-wrap > li > a { color: #1f2122; }
 header.fixed.menu-visible h1:after { color: #1f2122; }

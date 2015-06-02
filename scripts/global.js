@@ -82,7 +82,6 @@ $(window).height()) {
 });
 
 /****************** Sticky Navigation ***************/
-if($(window).width() > 990){
 $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 	if (scroll >= 1)  {
@@ -91,7 +90,6 @@ $(window).scroll(function() {
 		$(".banner").removeClass("fixed");}
 		});
 
-}; 
 
 /****************** Scroll Depth ***************/
 $.scrollDepth();
