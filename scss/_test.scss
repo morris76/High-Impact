@@ -352,6 +352,7 @@ nav {
 		display: block;
 		padding: 10px 0;
 		font-weight: 700;
+		color:#000;
 	}
 
 
@@ -982,7 +983,12 @@ display: inline-block;
   font-size: 1em;
   font-weight: 700;
   border-bottom: 1px solid rgba(0, 0, 0, 0.17);
-  padding: 20px;}
+  padding: 20px;
+
+	@media #{$breakpoint-menu} {
+		font-size:0.7em;}
+
+		}
 
 .homepage-spotlight-box img {
 	margin: 0;
@@ -1043,7 +1049,12 @@ display: inline-block;
     color: #ffffff;
     display: block;
     font-size: 1em;
-    font-weight: 700;}
+    font-weight: 700;
+
+
+	@media #{$breakpoint-menu} {
+		font-size:0.7em;}
+}
 
 .homepage-solutions-box i {
 	color:$color-red;
@@ -1085,6 +1096,7 @@ display: inline-block;
     	@media #{$breakpoint-menu} {
 		//font-size:2.8em; 
 		//padding-bottom: 0.5em;
+		margin-bottom:1em;
 		}
 	
     	@media #{$breakpoint-columns} {
@@ -1103,6 +1115,12 @@ display: inline-block;
 	font-style: italic;
 	font-size: 22px;
 }
+
+#contact p {
+
+	@media #{$breakpoint-menu} {
+		font-size:0.7em;}
+}
 h2 {
 	color:$color-red;
 	font-size: 1.6em;
@@ -1112,5 +1130,8 @@ h2 {
 	padding:0.3em 0;
 	display:inline-block;margin-top:0;}
 
-h3 {display:inline-block;margin-bottom:0;margin-top:0;font-size:1.25em;}
+#contact h3 {display: block;
+  margin-bottom: -1em;
+  margin-top: 0.92857143em;
+  font-size: 1.25em;}
 
